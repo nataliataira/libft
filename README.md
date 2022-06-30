@@ -1,6 +1,4 @@
-## libft
-
-<b><i>YOUR VERY FIRST OWN LIBRARY</i></b><br>
+## libft: <b><i>YOUR VERY FIRST OWN LIBRARY</i></b><br>
 
 
 ## 💡 About the project
