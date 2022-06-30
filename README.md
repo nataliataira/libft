@@ -1,4 +1,4 @@
-_ 📝LIBFT: your very first own library :)
+_ 📝 LIBFT: your very first own library :)
 
 _💡 ABOUT:
 C programming can be very tedious when one doesn’t have access to the highly useful
