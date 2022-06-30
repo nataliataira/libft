@@ -6,8 +6,6 @@
 	<b><i>YOUR VERY FIRST OWN LIBRARY</i></b><br>
 </p>
 
----
-
 ## 💡 About the project
 
 > _This project is about coding a C library._
