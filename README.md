@@ -3,9 +3,9 @@ LIBFT: <i>YOUR VERY FIRST OWN LIBRARY</i>
 
 ## 💡 About the project
 
-This project gives you the opportunity to rewrite those functions to understand them and learn to use them.
-The library will help you for your future projects in C. Through this project, you have the opportunity
-to extend your list of functions in your own way!
+C programming can be very tedious when one doesn’t have access to the highly useful
+standard functions. This project is about understanding the way these functions work,
+implementing and learning to use them. Your will create your own library.
 
 
 ## 📋 Third party testers to test the project
