@@ -1,13 +1,9 @@
-  📝 your very first own library :)
+## 💡 About the project:
 
+> _The aim of this project is to make you code a function that returns a line, read from a file descriptor._
 
-
-  💡 C programming can be very tedious when one doesn’t have access to the highly useful
-standard functions. This project is about understanding the way these functions work,
-implementing and learning to use them. Your will create your own library.
-
-
-
-  📋 THIRD PARTY TESTERS:
-* [Tripouille/libfTester](https://github.com/Tripouille/libftTester)
-* [ska42/libft-war-machine](https://github.com/ska42/libft-war-machine)
+	You will understand how files are opened, read and closed in an OS,
+	and how they are interpreted by a programming language for further analysis.
+	This task is crucial to understand for a future programmer since much of the time is based
+	on manipulating files for data management and persistence.
+	This project consists of coding a function that returns one line at a time from a text file.
