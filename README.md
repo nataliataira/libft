@@ -1,10 +1,7 @@
-<h1 align="center">
-	libft
-</h1>
+## libft
 
-<p align="center">
-	<b><i>YOUR VERY FIRST OWN LIBRARY</i></b><br>
-</p>
+<b><i>YOUR VERY FIRST OWN LIBRARY</i></b><br>
+
 
 ## 💡 About the project
 
