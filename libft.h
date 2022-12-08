@@ -3,16 +3,20 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ngomes-t <ngomes-t@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: ngomes-t <ngomes-t@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/01 21:03:19 by ngomes-t          #+#    #+#             */
-/*   Updated: 2022/11/11 22:19:41 by ngomes-t         ###   ########.fr       */
+/*   Updated: 2022/12/08 19:56:32 by ngomes-t         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
+
 # define BUFFER_SIZE 1024
+# define HEXUPPER "0123456789ABCDEF"
+# define HEXLOWER "0123456789abcdef"
+# define DECIMAL "0123456789"
 
 # include <unistd.h>
 # include <stdlib.h>
