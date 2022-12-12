@@ -4,6 +4,8 @@ SRC =	ft_atoi.c\
 		ft_bzero.c\
 		ft_calloc.c\
 		ft_count_words.c\
+		ft_get_next_line.c\
+		ft_htoi.c\
 		ft_isalnum.c\
 		ft_isalpha.c\
 		ft_isascii.c\
@@ -35,7 +37,6 @@ SRC =	ft_atoi.c\
 		ft_substr.c\
 		ft_tolower.c\
 		ft_toupper.c\
-		ft_get_next_line.c
 
 BSRC =	ft_lstadd_back.c\
 		ft_lstadd_front.c\
