@@ -36,7 +36,8 @@ SRC =	ft_atoi.c\
 		ft_strtrim.c\
 		ft_substr.c\
 		ft_tolower.c\
-		ft_toupper.c\
+		ft_toupper.c
+		ft_countwords.c\
 
 BSRC =	ft_lstadd_back.c\
 		ft_lstadd_front.c\

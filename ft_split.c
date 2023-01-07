@@ -6,20 +6,20 @@
 /*   By: ngomes-t <ngomes-t@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/18 01:59:43 by ngomes-t          #+#    #+#             */
-/*   Updated: 2022/06/24 21:27:37 by ngomes-t         ###   ########.fr       */
+/*   Updated: 2023/01/08 00:48:06 by ngomes-t         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static size_t	word_count(const char *s, char c)
+size_t	ft_countwords(const char *s, char c)
 {
 	int		is_word;
 	size_t	words;
 
 	words = 0;
 	is_word = 0;
-	while (*s)
+	while (s && *s)
 	{
 		if (!is_word && *s != c)
 		{
