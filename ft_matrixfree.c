@@ -1,23 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_count_words.c                                     :+:      :+:    :+:   */
+/*   ft_matrixfree.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ngomes-t <ngomes-t@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/11 22:15:15 by ngomes-t          #+#    #+#             */
-/*   Updated: 2022/11/11 22:17:55 by ngomes-t         ###   ########.fr       */
+/*   Created: 2023/01/11 20:06:01 by ngomes-t          #+#    #+#             */
+/*   Updated: 2023/01/11 20:06:52 by ngomes-t         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_countsplit(char **words)
+void	ft_matrixfree(void **matrix)
 {
 	int	i;
 
 	i = 0;
-	while (*words)
-		i++;
-	return (i);
+	if (!matrix)
+		return ;
+	while (matrix[i])
+		free(matrix[i++]);
+	free(matrix);
 }
