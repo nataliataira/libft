@@ -6,7 +6,7 @@
 /*   By: ngomes-t <ngomes-t@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/01 21:03:19 by ngomes-t          #+#    #+#             */
-/*   Updated: 2023/01/08 00:48:07 by ngomes-t         ###   ########.fr       */
+/*   Updated: 2023/01/11 20:03:42 by ngomes-t         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ typedef struct s_list
 int		ft_atoi(const char *nptr);
 void	ft_bzero(void *s, size_t n);
 void	*ft_calloc(size_t nmeb, size_t size);
-int		ft_count_words(char **words);
+int		ft_countsplit(char **words);
 char	*ft_get_next_line(int fd);
 int		ft_htoi(char *hex);
 int		ft_isalnum(int c);

@@ -3,7 +3,7 @@ NAME = libft.a
 SRC =	ft_atoi.c\
 		ft_bzero.c\
 		ft_calloc.c\
-		ft_count_words.c\
+		ft_countsplit.c\
 		ft_get_next_line.c\
 		ft_htoi.c\
 		ft_isalnum.c\
