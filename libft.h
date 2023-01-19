@@ -6,7 +6,7 @@
 /*   By: ngomes-t <ngomes-t@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/01 21:03:19 by ngomes-t          #+#    #+#             */
-/*   Updated: 2023/01/11 20:11:11 by ngomes-t         ###   ########.fr       */
+/*   Updated: 2023/01/19 02:34:43 by ngomes-t         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,8 +76,6 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
 t_list	*ft_lstnew(void *content);
 int		ft_lstsize(t_list *lst);
 
-int		ft_countwords(char const *s, char c);
-void	ft_matrixfree(void **matrix)
-
+void	ft_matrixfree(void **matrix);
 
 #endif

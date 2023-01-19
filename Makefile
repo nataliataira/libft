@@ -37,7 +37,6 @@ SRC =	ft_atoi.c\
 		ft_substr.c\
 		ft_tolower.c\
 		ft_toupper.c
-		ft_countwords.c\
 
 BSRC =	ft_lstadd_back.c\
 		ft_lstadd_front.c\
@@ -47,7 +46,7 @@ BSRC =	ft_lstadd_back.c\
 		ft_lstlast.c\
 		ft_lstmap.c\
 		ft_lstnew.c\
-		ft_lstsize.c\
+		ft_lstsize.c
 
 OBJS = $(SRC:.c=.o)
 
